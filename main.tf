@@ -19,7 +19,7 @@ resource "docker_container" "web" {
 
   ports {
     internal = 80
-    external = 8084
+    external = 8085
   }
 
   volumes {
